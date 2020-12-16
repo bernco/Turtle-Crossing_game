@@ -13,7 +13,7 @@ class MyTurtle(Turtle):
         self.shape("turtle")
         self.pu()
         self.seth(90)
-        self.goto(START_POSITION)
+        self.go_to_start()
 
     # moves the turtle up when called
     def move_up(self):

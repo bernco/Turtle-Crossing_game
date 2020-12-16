@@ -19,7 +19,7 @@ my_scoreboard = ScoreBoard()
 
 # screen should listen to our input from the keyboard
 game_screen.listen()
-game_screen.onkeypress(key="Up", fun=my_turtle.move_up)
+game_screen.onkey(key="Up", fun=my_turtle.move_up)
 
 # to keep the game running
 game_is_on = True
@@ -38,7 +38,7 @@ while game_is_on:
     my_car.move_car()
     for cars in my_car.car_list:
         # checks for collision with car
-        if my_turtle.distance(cars) < 20:
+        if my_turtle.distance(cars) < 25:
             my_turtle.go_to_start()
             my_scoreboard.game_over()
             game_is_on = False
