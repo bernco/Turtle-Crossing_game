@@ -2,7 +2,7 @@ from turtle import Turtle
 import random
 
 # colors to be used in designing the block cars
-COLOR_LIST = ["red", "green", "grey", "orange", "pink", "black", "blue", "purple"]
+COLOR_LIST = ["red", "green", "grey", "orange", "pink", "blue", "purple"]
 
 # speed details for the cars
 SPEED_TIME = 0.1

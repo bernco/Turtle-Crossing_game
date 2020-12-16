@@ -38,7 +38,7 @@ while game_is_on:
     my_car.move_car()
     for cars in my_car.car_list:
         # checks for collision with car
-        if my_turtle.distance(cars) < 27:
+        if my_turtle.distance(cars) < 20:
             my_turtle.go_to_start()
             my_scoreboard.game_over()
             game_is_on = False
